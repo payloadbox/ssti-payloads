@@ -1,2 +1,1 @@
-# ssti-payloads
-Server Side Template Injection Payloads
+## Server Side Template Injection Payloads

